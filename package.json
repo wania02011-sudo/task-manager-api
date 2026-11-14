@@ -1,0 +1,15 @@
+{
+  "name": "task-manager-api",
+  "version": "1.0.0",
+  "description": "Task Manager REST API (Node.js, http, Express)",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "http": "node httpServer.js",
+    "cli": "node cli.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
